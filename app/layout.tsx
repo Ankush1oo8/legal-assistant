@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Lexi Legal Assistant",
-  description: "AI-powered legal assistant with document citations",
-    generator: 'v0.dev'
+  description: "AI-powered legal assistant with document citations"
 }
 
 export default function RootLayout({
