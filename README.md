@@ -39,7 +39,7 @@ cd legal-assistant
 
 1. Install dependencies:
 \`\`\`bash
-npm install
+npm install or npm i -force
 \`\`\`
 
 1. Run the development server:
@@ -135,27 +135,26 @@ const simulatedResponse = {
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshot-main.png)
-*Chat interface with legal question and answer*
+![image](https://github.com/user-attachments/assets/19589aaa-19ac-47ad-8261-1907d2795cee)
+*Chat interface*
+![image](https://github.com/user-attachments/assets/5b67a5d9-e798-42ad-ab52-0daaa1bdab0f)
+*Chat interface with dark mode*
 
+![image](https://github.com/user-attachments/assets/53156b7e-7fcb-48ce-8d24-c0db578937a0)
+*Chat interface with legal question and answer*
 ### Citation Modal
-![Citation Modal](screenshot-citation.png)
+![image](https://github.com/user-attachments/assets/adf37950-0d61-435f-b296-dd47f71f4acb)
+![image](https://github.com/user-attachments/assets/7cf7470d-957e-49ee-8d70-6ebc4d5e45a5)
 *Citation details modal with PDF link*
 
 ## Deployment
 
 The application can be deployed to:
 
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **GitHub Pages**
-- Any static hosting service
 
-### Deploy to Vercel
-\`\`\`bash
-npm install -g vercel
-vercel
-\`\`\`
+- **Netlify**
+https://legalassistants.netlify.app/
+
 
 ## Future Enhancements
 
@@ -175,14 +174,5 @@ vercel
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions or support, contact: hi@lexi.sg
 
 ---
-
-**Team Lexi** - Building the future of legal technology
